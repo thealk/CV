@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.8)  25 AUG 2018 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.8)  19 SEP 2018 23:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -369,7 +369,7 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 )))
-(./KnowlesCV_academic_2018.aux)
+No file KnowlesCV_academic_2018.aux.
 \openout1 = `KnowlesCV_academic_2018.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
@@ -384,7 +384,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -614,14 +613,22 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 610.
  [9]
 (./KnowlesCV_academic_2018.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                KnowlesCV_academic_2018
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'KnowlesCV_academic_2018.run.xml'.
 \openout1 = `KnowlesCV_academic_2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 7794 strings out of 493078
- 134358 string characters out of 6134297
- 590643 words of memory out of 5000000
+ 7792 strings out of 493078
+ 134302 string characters out of 6134297
+ 590628 words of memory out of 5000000
  11225 multiletter control sequences out of 15000+600000
  7639 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -633,7 +640,7 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on KnowlesCV_academic_2018.pdf (9 pages, 119467 bytes).
+Output written on KnowlesCV_academic_2018.pdf (9 pages, 119410 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
