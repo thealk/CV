@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.8)  19 SEP 2018 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.8)  19 SEP 2018 23:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -435,47 +435,36 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 63--63
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 90.
+(Font)              <10.95> on input line 89.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 90.
+(Font)              <8> on input line 89.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 90.
+(Font)              <6> on input line 89.
 
-./KnowlesCV_academic_2018.tex:98: LaTeX Error: Something's wrong--perhaps a mis
-sing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.98 \end{rSubsection}
-                      
-? 
-
-./KnowlesCV_academic_2018.tex:113: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2018.tex:101: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 \end{rSubsection}
+l.101 \end{rSubsection}
+                       
+? 
+
+./KnowlesCV_academic_2018.tex:116: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{rSubsection}
                        
 ? 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-./KnowlesCV_academic_2018.tex:141: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.141 \end{rSubsection}
-                       
-? 
 
 ./KnowlesCV_academic_2018.tex:144: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
@@ -488,14 +477,14 @@ l.144 \end{rSubsection}
                        
 ? 
 
-./KnowlesCV_academic_2018.tex:150: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2018.tex:147: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.150 \end{rSubsection}
+l.147 \end{rSubsection}
                        
 ? 
 
@@ -509,108 +498,126 @@ Type  H <return>  for immediate help.
 l.153 \end{rSubsection}
                        
 ? 
+
+./KnowlesCV_academic_2018.tex:156: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 \end{rSubsection}
+                       
+? 
 [2] [3] [4] [5] [6]
-./KnowlesCV_academic_2018.tex:475: Extra }, or forgotten \endgroup.
-l.475 ...eatment trends in hypokinetic dysarthria}
-                                                  ''
+
+./KnowlesCV_academic_2018.tex:480: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.480 	\end{rSubsection}
+                        
 ? 
 [7]
 
-./KnowlesCV_academic_2018.tex:572: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2018.tex:580: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.572 	\end{rSubsection}
+l.580 	\end{rSubsection}
                         
 ? 
 
-./KnowlesCV_academic_2018.tex:575: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2018.tex:583: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.575 	\end{rSubsection}
+l.583 	\end{rSubsection}
                         
 ? 
 
-./KnowlesCV_academic_2018.tex:578: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2018.tex:586: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.578 	\end{rSubsection}
+l.586 	\end{rSubsection}
                         
 ? 
 
-./KnowlesCV_academic_2018.tex:581: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2018.tex:589: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.581 	\end{rSubsection}
-                        
-? 
-
-./KnowlesCV_academic_2018.tex:584: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.584 	\end{rSubsection}
-                        
-? 
-
-./KnowlesCV_academic_2018.tex:587: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.587 	\end{rSubsection}
-                        
-? 
-
-./KnowlesCV_academic_2018.tex:590: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.590 	\end{rSubsection}
-                        
-? 
-
-./KnowlesCV_academic_2018.tex:593: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.593 	\end{rSubsection}
+l.589 	\end{rSubsection}
                         
 ? 
 [8]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 610.
 
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+./KnowlesCV_academic_2018.tex:592: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.592 	\end{rSubsection}
+                        
+? 
+
+./KnowlesCV_academic_2018.tex:595: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.595 	\end{rSubsection}
+                        
+? 
+
+./KnowlesCV_academic_2018.tex:598: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.598 	\end{rSubsection}
+                        
+? 
+
+./KnowlesCV_academic_2018.tex:601: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.601 	\end{rSubsection}
+                        
+? 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 618.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 610.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 618.
  [9]
 (./KnowlesCV_academic_2018.aux)
 
@@ -626,10 +633,10 @@ Package logreq Info: Writing requests to 'KnowlesCV_academic_2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 7792 strings out of 493078
- 134302 string characters out of 6134297
+ 7793 strings out of 493078
+ 134310 string characters out of 6134297
  590628 words of memory out of 5000000
- 11225 multiletter control sequences out of 15000+600000
+ 11226 multiletter control sequences out of 15000+600000
  7639 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,9n,37p,890b,1684s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -640,7 +647,7 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on KnowlesCV_academic_2018.pdf (9 pages, 119410 bytes).
+Output written on KnowlesCV_academic_2018.pdf (9 pages, 120617 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
