@@ -38,6 +38,8 @@
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+
 % bibtex
 \usepackage[american]{babel}
 \usepackage{csquotes}
@@ -315,14 +317,15 @@ Cheng, J. \& {\bf Knowles, T.} (2012). Mandarin VP-Shell: Not as hard as you thi
 %	MEDIA SECTION
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Media}
-
-``Research fine-tunes Parkinson's speech impact.'' Interview by Paul Mayne for \textit{Western News.} Online. 3/2016. \url{https://news.westernu.ca/2016/03/research-fine-tunes-parkinsons-speech-impact/}
-
-``The R-Ladies Piece.'' Interview by GradCast for \textit{Radio Western.} Radio. 6/2017.
-
+\begin{itemize}
+	\renewcommand\labelitemi{$\cdot$}
+	\item ``Speech in Parkinson's disease: The potential role of amplification devices.'' Article written for \textit{The Parkinson's Update (68).} Parkinson Society Southwestern Ontario. Online. Summer/Fall 2018. \url{https://parkinsonsociety.ca/wp-content/uploads/2018/07/Parkinson-68-complete-for-web-Compressed-003-final.pdf}
+	\item``The R-Ladies Piece.'' Interview by GradCast for \textit{Radio Western.} Radio. 6/2017.
+	\item ``Research fine-tunes Parkinson's speech impact.'' Interview by Paul Mayne for \textit{Western News.} Online. 3/2016. \url{https://news.westernu.ca/2016/03/research-fine-tunes-parkinsons-speech-impact/}
+\end{itemize}
 \end{rSection}
 
-%\newpage
+\newpage
 
 %----------------------------------------------------------------------------------------
 %	PROFESSIONAL EXPERIENCE SECTION
@@ -477,6 +480,10 @@ Cheng, J. \& {\bf Knowles, T.} (2012). Mandarin VP-Shell: Not as hard as you thi
 	
 	\begin{rSubsection}{Tutorial: Using RMarkdown to generate reports and manuscripts}{March 2018}{R-Ladies, London, Ontario Chapter}
 	\item Conducted interactive presentation and tutorial on using the programming language and software environment R to produce integrated reports and manuscripts
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Invited guest lecturer: Professional Practice for Speech-Language Pathology}{November 2017}{Communication Sciences \& Disorders}{Western University}
+	\item Delivered lecture: ``Thinking about pursuing a PhD in communication sciences and disorders?''
 	\end{rSubsection}
 	
 	\begin{rSubsection}{Teaching Assistant: Speech Science (COMMSCI9615)}{Fall 2017}{Communication Sciences \& Disorders}{Western University}
