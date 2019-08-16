@@ -1,0 +1,811 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% From Ken: For a faculty position, use the following order:
+%
+%Education
+%Honours & Awards
+%Publications
+%Submitted Manuscripts
+%Presentations
+%
+%then
+%Professional Experience
+%Teaching Experience
+%Volunteer and Related Experience
+%etc.
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+
+% bibtex
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=apa,maxcitenames=2,uniquename=false]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+
+\addbibresource{/Users/thea/references.bib}
+
+\AtEveryBibitem{%
+    \clearfield{note}
+    \clearfield{month}
+    \clearfield{url}
+}
+
+%----------------------------------------------------------------------------------------
+
+\name{Thea Knowles} % Your name
+\address{Buffalo, NY} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{theaknow@buffalo.edu} % Your phone number and email
+
+
+\begin{document}
+\center{\em{Last updated:} \today}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Employment}
+{{\bf Assistant Professor} (tenure system)} \hfill {2019 - Present} \\
+Communicative Disorders \& Sciences \\
+University at Buffalo \\
+Buffalo, NY
+
+\end{rSection}
+
+\begin{rSection}{Education}
+
+{\bf Western University, London, ON} \hfill {2014 - 2019} \\ 
+MClSc/PhD Graduate (to be conferred October 2019)\\
+Health \& Rehabilitation Sciences (Speech \& Language Sciences) \\ 
+Communication Sciences \& Disorders (Speech-Language Pathology) \bigskip \\
+%Speech-Language Science/Speech-Language Pathology 
+{\bf McGill University, Montr\'eal, QC} \hfill {2008 - 2012} \\
+B.A. Honours, Linguistics \\
+First Class Honours, Distinction
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	HONOURS & AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Honours \& Awards}
+
+\begin{rSubsection}{Graduate Student Conference Travel Subsidy (Summer)}{2018}{Western University Society of Graduate Students}{}
+\item Value: \$500.00
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Student Conference Travel Award}{2018}{Western University Faculty of Health Sciences}{}
+\item Value: \$250.00
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Student Conference Travel Subsidy (Spring)}{2018}{Western University Society of Graduate Students}{}
+\item Value: \$300.00
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Student Teaching Award Nominee (not awarded)}{2018}{Western University}{}
+\end{rSubsection}
+
+\begin{rSubsection}{Ontario Graduate Scholarship}{2018-2019}{}{}
+\item Value: \$15,000
+\end{rSubsection}
+
+\begin{rSubsection}{Ontario Graduate Scholarship}{2017-2018}{}{}
+\item Value: \$15,000
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Student Research Program Award}{2017-2018}{Parkinson Society Southwestern Ontario}{}
+\item Value: \$20,000
+\end{rSubsection}
+
+\begin{rSubsection}{Vanier Scholarship Nominee (not awarded)}{2016}{Nominated by Western University Faculty of Health Sciences}{}
+\end{rSubsection}
+
+\begin{rSubsection}{Western University ``3 Minute Thesis'' First Place Winner}{2016}{Western University}{}
+\item  Value: \$1,000
+\end{rSubsection}
+
+\begin{rSubsection}{Harmonize for Speech Graduate Student Award}{2016}{Harmonize for Speech Ontario}{}
+\item Value: \$750
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Student Conference Travel Subsidy (Spring)}{2016}{Western University Society of Graduate Students}{}
+\item Value: \$500.00
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Student Conference Travel Award}{2016}{Western University Health \& Rehabilitation Sciences}{}
+\item Value: \$400.00
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Student Conference Travel Award}{2016}{Western University Faculty of Health Sciences}{}
+\item Value: \$300.00
+\end{rSubsection}
+
+\begin{rSubsection}{Student Achievement Award}{2015}{Ontario Association of Speech-Language Pathologists \&
+Audiologists}{}
+\item Value: OSLA Membership
+\end{rSubsection}
+
+\begin{rSubsection}{Acoustical Society of America Student Poster Honorable Mention}{2015}{Meeting of the 170th Acoustical Society of America, Jacksonville}{}
+\end{rSubsection}
+
+\begin{rSubsection}{Best PhD Student Poster Award}{2015}{Health \& Rehabilitation Sciences Graduate Research Conference, Western University}{}
+\end{rSubsection}
+
+%\begin{rSubsection}{Western Graduate Research Scholarship}{2014, 2015, 2016}{Value: \$19,000 annually}{} %Current value: \$19,000 annually}{}
+%\end{rSubsection}
+
+\begin{rSubsection}{Graduation with First Class Honours \& Distinction}{2012}{McGill University}{ }
+\end{rSubsection}
+
+\begin{rSubsection}{Dean's Honour List}{2010}{McGill University}{}
+\end{rSubsection}
+
+
+\end{rSection}
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+% Update to separate university publications & proceedings?
+% Add DOIs
+
+\begin{rSection}{Publications}
+% Journal articles
+
+Abeyesekera, A., Adams, S., Mancinelli, C., {\bf Knowles, T.,}, Gilmore, G., Delrobaei, M., Jog, M. (2019).  Effects of deep brain stimulation of the subthalamic nucleus settings on voice quality, intensity, and prosody in Parkinson’s disease: preliminary evidence for speech optimization. \emph{Canadian Journal of Neurological Sciences}, 46(3), 287-294. doi: 10.1017/cjn.2019.16	
+
+{\bf Knowles, T.}, Clayards, M., \& Sonderegger, M. (2018). Examining factors influencing the viability of automatic acoustic analysis of child speech. \emph{Journal of Speech, Language, and Hearing Research}, 61(10), 2487-2501. doi: 10.1044/2018\_JSLHR-S-17-0275.
+
+{\bf Knowles, T.}, Adams, S., Abeyesekera, A., Mancinelli, C., Gilmore, G., \& Jog, M. (2018). Deep brain stimulation of the subthalamic nucleus parameter optimization for vowel acoustics and speech intelligibility in Parkinson's disease. \emph{Journal of Speech, Language, and Hearing Research}, 61(3), 510-524. doi: 10.1044/2017\_JSLHR-S-17-0157.
+
+% Proceedings
+Cushnie-Sparrow, D., Adams, S.G., {\bf Knowles, T.}, Leszcz, T.M., Jog, M. (2016). Effects of multi-talker noise on the acoustics of voiceless stop consonants in Parkinson's disease. \emph{Western Papers in Linguistics.}
+
+{\bf Knowles, T.}, Clayards, M., Sonderegger, M., Wagner, M., Nadig, A., \& Onishi, K. (2015). Automatic forced alignment on child speech: Directions for improvement. \emph{Proceedings of Meetings on Acoustics.} doi: 25:060001.
+
+Clayards, M. \& {\bf Knowles, T.} (2015). Prominence enhances voicelessness and not place distinction in English voiceless sibilants. \emph{Proceedings of the 18th International Congress of Phonetic Sciences.} Glasgow, UK: the University of Glasgow.
+
+% Student working papers
+Little, C. \& {\bf Knowles, T.} (2012). Didja know? A comparative study of affrication across word boundaries in Canadian and American English. \emph{Strathy Student Working Papers on Canadian English.}
+
+Cheng, J. \& {\bf Knowles, T.} (2012). Mandarin VP-Shell: Not as hard as you think. \emph{McGill Cellar Door 1}, 4-20.
+
+\end{rSection}
+
+% Manuscripts
+\begin{rSection}{Submitted Manuscripts}
+
+Sonderegger, M., Stuart-Smith, J., Macdonald, R., {\bf Knowles, T.}, \& Rathcke, T. (submitted). Structured heterogeneity in Scottish stops.
+
+% Special issue of JPhon submitted by Meghan
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	CODE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Code}
+	Keshet, J., Sonderegger, M., \& {\bf Knowles, T.} (2014). AutoVOT, v. 0.93.
+	\begin{itemize}
+			\renewcommand\labelitemi{$\cdot$}
+		\item A software package for automatic measurement of voice onset time (VOT), using the algorithm described in Sonderegger \& Keshet (2012).
+	\end{itemize}
+	
+	{\bf Knowles, T.} (unpublished). Publicly available Praat scripts.
+	\begin{itemize}
+			\renewcommand\labelitemi{$\cdot$}
+		\item \url{https://github.com/thealk/PraatScripts}
+		\item Includes Visual Analog Scale administration tool, interactive tutorials, and various scripts designed to facilitate speech analysis.
+	\end{itemize}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	INVITED PRESENTATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	REFEREED PRESENTATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Conference \& Workshop Presentations}
+
+%-----------------------------
+% 		REFEREED
+%-----------------------------
+\begin{center}
+	{\bf \emph{Refereed conference presentations}}
+\end{center}
+
+	{\bf Knowles, T.}, Adams, S., Page, A., Cushnie-Sparrow, D., \& Jog, M. Evaluating the efficacy of speech amplification and personal communication devices in Parkinson's disease. American Speech-Language-Hearing Association (ASHA) Conference. Boston, MA. 11/2018. \emph{International poster presentation}
+	
+	{\bf Knowles, T.}, Adams, S., Page, A., Cushnie-Sparrow, D., \& Jog, M. A comparison of voice amplification devices in Parkinson's disease. 
+		\begin{itemize}
+			\renewcommand\labelitemi{$\cdot$}
+			\item American Speech-Language-Hearing Association (ASHA) CONNECT Conference. Baltimore, MD. 7/2018 (new data presented). \emph{International poster presentation}
+%			\item $5th$ Annual Movement Disorders Research Retreat. London, ON. 6/2018. \emph{Local oral presentation.}
+			\item Speech-Language Pathology and Audiology Canada (SAC) Conference. Edmonton, AB. 5/2018. \emph{National poster presentation}
+%			\item Health \& Rehabilitation  Graduate Research Conference. Western University, London, ON. 2/2018. \emph{Local oral presentation.}
+		\end{itemize}
+	
+%	{\bf Knowles, T.}, Adams, S., Page, A., Cushnie-Sparrow, D., \& Jog, M. A comparison of speech amplifiers and personal communication systems for individuals with Parkinson's disease and hypophonia. 5th Annual Movement Disorders Research Retreat. London, ON. 6/2018. \emph{Local oral presentation.}
+
+%	{\bf Knowles, T.}, Adams, S., Page, A., Cushnie-Sparrow, D., \& Jog, M. Comparison of speech amplification devices in individuals with Parkinson's disease. Speech-Language Pathology and Audiology Canada (SAC) Conference. Edmonton, AB. 5/2018. \emph{National poster presentation} 
+	
+%	{\bf Knowles, T.}, Adams, S., Page, A., Cushnie-Sparrow, D., \& Jog, M. A comparison of speech amplification devices in individuals with Parkinson's disease. Health \& Rehabilitation  Graduate Research Conference. Western University, London, ON. 2/2018. \emph{Local oral presentation.}
+	
+%	{\bf Knowles, T.} The effect of rate manipulation on acoustic distinctiveness and intelligibility in dysarthria: Prospectus. 
+%	\begin{itemize}
+%		\renewcommand\labelitemi{$\cdot$}
+%		\item Speech \& Language Seminar, Health \& Rehabilitation Sciences, Western University. London, ON. 10/2017. \emph{Local oral presentation.}
+%		\item $4th$ Annual Movement Disorders Research Retreat. London, ON. 6/2017. \emph{Local oral presentation.}
+%	\end{itemize}
+%	
+%%	{\bf Knowles, T.} The effect of rate manipulation on acoustic distinctiveness and intelligibility in dysarthria: Prospectus. 4th Annual Movement Disorders Research Retreat. London, ON. 6/2017. \emph{Local oral presentation.}
+%	
+%	{\bf Knowles, T.}, Adams, S.G., Abeyesekera, A., Mancinelli, C., Gilmore, G., \& Jog, M. Deep brain stimulation parameter optimization: Vowel acoustics in Parkinson's disease. Health \& Rehabilitation Graduate Research Conference. Western University, London, ON. 2/2017. \emph{Local oral presentation.}
+	
+	Mancinelli, C., Adams, S.G., Abeyesekera, A., {\bf Knowles, T.}, Delrobaei, M., \& Jog, M. Deep brain stimulation parameter optimization for rate of speech in Parkinson's disease. American Speech-Language-Hearing Association Convention. Philadelphia, PA. 11/2016. \emph{International poster presentation, presented by first author.}
+	
+	{\bf Knowles, T.}, Adams, S.G., Abeyesekera, A., Mancinelli, C., \& Jog, M. Deep brain stimulation parameter optimization for speech intelligibility and vowel acoustics in Parkinson's disease. International Clinical Phonetics and Linguistics Association Conference, Halifax, NS. 6/2016. \emph{International oral presentation.}
+	
+	%\newpage
+	
+	Abeyesekera, A., Adams, S.G., {\bf Knowles, T.}, Mancinelli, C., Delrobaei, M., \& Jog, M. Deep brain stimulation and speech in Parkinson's disease: Effects of stimulator settings and electrode contact positions. Southern Ontario Neuroscience Association, Waterloo, ON. 5/2016. \emph{Provincial poster presentation, presented by first author.}
+	
+%	Cushnie-Sparrow, D., Adams, S.G., Leszcz, T., {\bf Knowles, T.},  \& Jog., M. Effects of multitalker noise on the acoustics of voiceless stop consonants in Parkinson disease. Western Interdisciplinary Student Symposium on Language Research, London, ON. 3/2016. \emph{Local oral presentation, presented by first author.}
+	% Accepted but did not attend: 9th annual Toronto Undergraduate Linguistics Conference, Toronto, ON. 3/2016.
+	
+	
+	{\bf Knowles, T.}, Adams, S.G., Abeyesekera, A., Mancinelli, C., Delrobaei, \& M., Jog., M. Deep brain stimulation parameter optimization for speech intelligibility and speech acoustics in Parkinson's disease. Motor Speech Conference, Newport Beach, CA. 3/2016. \emph{International poster presentation.}
+	
+	Abeyesekera, A., Adams, S.G., {\bf Knowles, T.}, Mancinelli, C., Delrobaei, \& M., Jog., M. Deep brain stimulation parameter optimization for voice quality, speech intensity and prosody of speech in Parkinson's disease. Motor Speech Conference, Newport beach, CA. 3/2016. \emph{International poster presentation, presented by first author.}
+	
+%	{\bf Knowles, T.}, Adams, S., Leszcz, T., Jog, M. Acoustic correlates of noise-related speech intelligibility deficits in Parkinson?s disease. Health and Rehabilitation Sciences Graduate Research Conference. Western University, London, ON. 2/2016. \emph{Local oral presentation.}
+	
+	{\bf Knowles, T.}, Clayards, M., Sonderegger, M., Wagner, M., Nadig, A., \& Onishi, K. Automatic forced alignment on child speech: Directions for improvement. Meeting of the Acoustical Society of America, Jacksonville, FL. 11/2015. \emph{International poster presentation.}
+	
+%	{\bf Knowles, T.}, Adams, S.G., Abeyesekera, A., Mancinelli, C., Delrobaei, \& M., Jog., M. Deep brain stimulation and speech.
+%	\begin{itemize}
+%				\renewcommand\labelitemi{$\cdot$}
+%		\item $3rd$ Annual Movement Disorders Research Retreat. Toronto, ON. 6/2016.  \emph{Local oral presentation.}
+%		\item $2nd$ Annual Movement Disorders Research Retreat. London, ON. 6/2015.  \emph{Local oral presentation.}
+%	\end{itemize}
+%	
+%	{\bf Knowles, T.}, Adams, S.G., Abeyesekera, A., Mancinelli, C., Delrobaei, \& M., Jog., M. Effect of deep brain stimulation parameters on speech intelligibility and speech acoustics in Parkinson's disease. 
+%	\begin{itemize}
+%				\renewcommand\labelitemi{$\cdot$}
+%		\item Health \& Rehabilitation Sciences Graduate Research Conference. Western University, London, ON.  2/2015.  \emph{Local poster presentation.}
+%		\item Faculty of Health Sciences Research Day. Western University, London, ON. 3/2015.  \emph{Local poster presentation.}
+%	\end{itemize}
+%	
+%	Abeyesekera, A., Adams, S., {\bf Knowles, T.}, Mancinelli, C., Delrobaei, M., \& Jog, M. Effect of different deep brain stimulation parameters on voice quality, speech intensity, and prosody in Parkinson's Disease. Health \& Rehabilitation Sciences Graduate Research Conference, Western University, London, ON. 2/2015.  \emph{Local poster presentation, presented by first author.}
+%	
+%	Mancinelli, C., Adams, S., Abeyesekera, A., {\bf Knowles, T.}, Delrobaei, M., \& Jog, M. Deep brain stimulation parameter optimization for rate of speech in Parkinson's Disease. Health \& Rehabilitation Sciences Graduate Research Conference, Western University, London, ON. 2/2015. \emph{Local poster presentation, presented by first author.}
+	
+	Sonderegger, M., Stuart-Smith, J., Macdonald, R., {\bf Knowles, T.}, \& Rathcke, T. Stability and change in Scottish stops: A real-time study of three acoustic cues in Glaswegian vernacular. New Ways of Analyzing Variation 44, Toronto. 10/2015. \emph{International oral presentation, presented by first author.}
+	
+	Clayards, M., \& {\bf Knowles, T.} Prominence enhances voicelessness and not place distinction in English voiceless sibilants. 18th International Congress of Phonetic Sciences. Glasgow, Scotland. 8/2015. \emph{International oral presentation, presented by first author.}
+	
+	Stuart-Smith, J., Sonderegger, M., Macdonald, R., {\bf Knowles, T.}, \& Rathcke, T. (2014). The private life of stops: VOT in a real-time corpus of spontaneous Glaswegian. 14th Conference on Laboratory Phonology. Tokyo, Japan. 7/2014. \emph{International oral presentation, presented by first author.}
+	
+	Clayards, M., \& {\bf Knowles, T.} Sibilants, prominence, contrast and breathy voice. Phonetic Building Blocks of Speech. University of Victoria. Victoria, BC. 9/2014. \emph{International poster presentation, presented by first author.}
+	
+%	Clayards, M., Wonnacott, E., \& {\bf Knowles, T.} A case study of childhood L2 learning of phonological contrasts. McGill School of Communication Sciences and Disorders 50th Anniversary Open House. McGill University. Montr\'eal, QC. 11/2013. \emph{Local poster presentation, presented by first author.}
+	
+	Clayards, M. \& {\bf Knowles, T.} Prosodic strengthening and sibilants. Linguistic Institute Conference on Universality and Variability in segment-prosody interactions. Ann Arbor, MI. 6/2013. \emph{International oral presentation, presented by first author.}
+	
+	Fleischer, D., {\bf Knowles, T.}, Cheng, J., Wagner, M., \& Clayards, M. Syntactic effects on compensation for assimilation. Architectures and Mechanisms for Language Processing. Riva del Garda, Italy. 9/2012. \emph{International oral presentation, presented by last author.}
+	
+	Little, C. \& {\bf Knowles, T.} Didja Know? Affrication in North American English Dialects.
+	\begin{itemize}
+				\renewcommand\labelitemi{$\cdot$}
+		\item Change and Variation in Canada 7. University of Toronto. Toronto, ON. 5/2012. \emph{National oral presentation.}
+		\item 2nd Annual Hunter Undergraduate Linguistics and Language Study. Hunter College. New York, NY. 5/2012. \emph{International oral presentation.}
+		\item International Linguistic Assoc. 58th Annual Conference. Kingsborough Community College. Brooklyn, NY. 4/2012. \emph{International oral presentation.}
+		\item 10th Annual Harvard Undergraduate Linguistics Colloquium. Harvard University. Cambridge, MA. 4/2012. \emph{International oral presentation.}
+	\end{itemize}
+	
+	{\bf Knowles, T.} (2011). Gender and Lexical Variation: Coffee Tasting Descriptors. 
+	\begin{itemize}
+				\renewcommand\labelitemi{$\cdot$}
+		\item McGill Canadian Conference for Linguistics Undergraduates. Montr\'eal, QC. 3/2011. \emph{National oral presentation.}
+		\item 9th Annual Harvard Undergraduate Linguistics Colloquium. Harvard University. Cambridge, MA. \emph{International oral presentation.}
+	\end{itemize}
+
+%\end{rSection}
+
+
+%\begin{rSection}{Invited Presentations}
+%-----------------------------
+% 		INVITED
+%-----------------------------
+\begin{center}
+	{\bf \emph{Invited presentations}}
+\end{center}
+
+
+{\bf Knowles, T.} Speech amplification clinic: Speech-language pathology in-service. H.A. Leeper Speech \& Hearing Clinic. Western University, London, ON. 1/2019.
+
+{\bf Knowles, T.} Louder but not clearer: Exploring underpinnings of speech intelligibility in dysarthria through acoustic, clinical, and technological lenses. Job talk presented at the University of Minnesota Twin Cities. Minneapolis, MN. 1/2019.
+
+{\bf Knowles, T.} Louder but not clearer: Exploring underpinnings of speech intelligibility in dysarthria through acoustic, clinical, and technological lenses. Job talk presented at the University at Buffalo. Buffalo, NY. 11/2018.
+
+{\bf Knowles, T.}, Adams, S., Page, A., Cushnie-Sparrow, D., \& Jog, M. A comparison of speech amplification and personal communication devices for individuals with Parkinson's disease. Communicative Disorders \& Sciences Research Colloquium. University at Buffalo, Buffalo, NY. 4/2018.
+
+%\end{rSection}
+
+
+%-----------------------------
+% 		LOCAL
+%-----------------------------
+\begin{center}
+	{\bf \emph{Local presentations}}
+\end{center}
+
+	{\bf Knowles, T.}, Adams, S., Page, A., Cushnie-Sparrow, D., \& Jog, M. Evaluating the efficacy of voice amplification and personal communication devices in Parkinson's disease. Speech \& Language Seminar, Health \& Rehabilitation Sciences, Western University. London, ON. 10/2018. \emph{Local oral presentation.}
+
+	{\bf Knowles, T.}, Adams, S., Page, A., Cushnie-Sparrow, D., \& Jog, M. A comparison of voice amplification devices in Parkinson's disease. 
+		\begin{itemize}
+			\renewcommand\labelitemi{$\cdot$}
+%			\item American Speech-Language-Hearing Association (ASHA) CONNECT Conference. Baltimore, MD. 7/2018 (new data presented). \emph{International poster presentation}
+			\item $5th$ Annual Movement Disorders Research Retreat. London, ON. 6/2018. \emph{Local oral presentation.}
+%			\item Speech-Language Pathology and Audiology Canada (SAC) Conference. Edmonton, AB. 5/2018. \emph{National poster presentation}
+			\item Health \& Rehabilitation  Graduate Research Conference. Western University, London, ON. 2/2018. \emph{Local oral presentation.}
+		\end{itemize}
+		
+	{\bf Knowles, T.} The effect of rate manipulation on acoustic distinctiveness and intelligibility in dysarthria: Prospectus. 
+	\begin{itemize}
+		\renewcommand\labelitemi{$\cdot$}
+		\item Speech \& Language Seminar, Health \& Rehabilitation Sciences, Western University. London, ON. 10/2017. \emph{Local oral presentation.}
+		\item $4th$ Annual Movement Disorders Research Retreat. London, ON. 6/2017. \emph{Local oral presentation.}
+	\end{itemize}
+	
+	
+	{\bf Knowles, T.}, Adams, S.G., Abeyesekera, A., Mancinelli, C., Gilmore, G., \& Jog, M. Deep brain stimulation parameter optimization: Vowel acoustics in Parkinson's disease. Health \& Rehabilitation Graduate Research Conference. Western University, London, ON. 2/2017. \emph{Local oral presentation.}
+
+	Cushnie-Sparrow, D., Adams, S.G., Leszcz, T., {\bf Knowles, T.},  \& Jog., M. Effects of multitalker noise on the acoustics of voiceless stop consonants in Parkinson disease. Western Interdisciplinary Student Symposium on Language Research, London, ON. 3/2016. \emph{Local oral presentation, presented by first author.}
+
+	{\bf Knowles, T.}, Adams, S., Leszcz, T., Jog, M. Acoustic correlates of noise-related speech intelligibility deficits in Parkinson's disease. Health and Rehabilitation Sciences Graduate Research Conference. Western University, London, ON. 2/2016. \emph{Local oral presentation.}
+	
+	{\bf Knowles, T.}, Adams, S.G., Abeyesekera, A., Mancinelli, C., Delrobaei, \& M., Jog., M. Deep brain stimulation and speech.
+	\begin{itemize}
+				\renewcommand\labelitemi{$\cdot$}
+		\item $3rd$ Annual Movement Disorders Research Retreat. Toronto, ON. 6/2016.  \emph{Local oral presentation.}
+		\item $2nd$ Annual Movement Disorders Research Retreat. London, ON. 6/2015.  \emph{Local oral presentation.}
+	\end{itemize}
+	
+	{\bf Knowles, T.}, Adams, S.G., Abeyesekera, A., Mancinelli, C., Delrobaei, \& M., Jog., M. Effect of deep brain stimulation parameters on speech intelligibility and speech acoustics in Parkinson's disease. 
+	\begin{itemize}
+				\renewcommand\labelitemi{$\cdot$}
+		\item Health \& Rehabilitation Sciences Graduate Research Conference. Western University, London, ON.  2/2015.  \emph{Local poster presentation.}
+		\item Faculty of Health Sciences Research Day. Western University, London, ON. 3/2015.  \emph{Local poster presentation.}
+	\end{itemize}
+	
+	Abeyesekera, A., Adams, S., {\bf Knowles, T.}, Mancinelli, C., Delrobaei, M., \& Jog, M. Effect of different deep brain stimulation parameters on voice quality, speech intensity, and prosody in Parkinson's Disease. Health \& Rehabilitation Sciences Graduate Research Conference, Western University, London, ON. 2/2015.  \emph{Local poster presentation, presented by first author.}
+	
+	Mancinelli, C., Adams, S., Abeyesekera, A., {\bf Knowles, T.}, Delrobaei, M., \& Jog, M. Deep brain stimulation parameter optimization for rate of speech in Parkinson's Disease. Health \& Rehabilitation Sciences Graduate Research Conference, Western University, London, ON. 2/2015. \emph{Local poster presentation, presented by first author.}
+
+	Clayards, M., Wonnacott, E., \& {\bf Knowles, T.} A case study of childhood L2 learning of phonological contrasts. McGill School of Communication Sciences and Disorders 50th Anniversary Open House. McGill University. Montr\'eal, QC. 11/2013. \emph{Local poster presentation, presented by first author.}
+
+\end{rSection}
+
+\newpage
+%----------------------------------------------------------------------------------------
+%	MEDIA SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Media}
+%\begin{itemize}
+%	\renewcommand\labelitemi{$\cdot$}
+%	\item ``Speech in Parkinson's disease: The potential role of amplification devices.'' Article written for \textit{The Parkinson's Update (68).} Parkinson Society Southwestern Ontario. Online. Summer/Fall 2018. \url{https://parkinsonsociety.ca/wp-content/uploads/2018/07/Parkinson-68-complete-for-web-Compressed-003-final.pdf}
+%	\item``The R-Ladies Piece.'' Interview by GradCast for \textit{Radio Western.} Radio. 6/2017.
+%	\item ``Research fine-tunes Parkinson's speech impact.'' Interview by Paul Mayne for \textit{Western News.} Online. 3/2016. \url{https://news.westernu.ca/2016/03/research-fine-tunes-parkinsons-speech-impact/}
+%\end{itemize}
+
+{\bf ``Speech in Parkinson's disease: The potential role of amplification devices.''} Article written for \textit{The Parkinson's Update (68).} Parkinson Society Southwestern Ontario. Online. Summer/Fall 2018. \url{https://parkinsonsociety.ca/wp-content/uploads/2018/07/Parkinson-68-complete-for-web-Compressed-003-final.pdf}
+
+{\bf ``The R-Ladies Piece.''} Interview by GradCast for \textit{Radio Western.} Radio. 6/2017.
+
+{\bf ``Research fine-tunes Parkinson's speech impact.''} Interview by Paul Mayne for \textit{Western News.} Online. 3/2016. \url{https://news.westernu.ca/2016/03/research-fine-tunes-parkinsons-speech-impact/}
+
+\end{rSection}
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+% 	RESEARCH
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional Experience: Research}
+
+	\begin{rSubsection}{Research Assistant}{November 2014 - Present}{Speech Movement Disorders Lab, Western University}{London, ON}
+	\item Assist with study design, ethics submission, data collection related to a comparison of assistive speech devices for individuals with Parkinson's disease
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Lab Coordinator/Research Assistant}{October 2014 - Present}{Language \& Cognition Lab, Western University}{London, ON}
+	\item Assist with study design, ethics proposals, recruitment, data collection/analysis related to language comprehension in Parkinson's disease
+	\item Manage research assistants, coordinate meetings, ensure project deadlines are met
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Project Manager: Tools for Looking at Variability in Speech}{August 2013 - June 2014}{McGill University}{Montr\'eal, QC}
+	\item Multidisciplinary collaboration with Communication Sciences \& Disorders, Linguistics, \& Psychology investigating viability of automated analysis with large scale variable speaker populations
+	\item Trained \& managed 12+ research assistants in speech analysis
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Lab Manager: Speech Learning Lab}{August 2013 - June 2014}{Linguistics Department, McGill University}{Montr\'eal, QC}
+	\item Trained \& managed research assistants in acoustic analysis
+	\item Provided training materials and conducted tutorial on Praat scripting
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Lab Manager: Montr\'eal Language Modeling Lab}{June 2013 - June 2014}{Linguistics Department, McGill University}{Montr\'eal, QC}
+	\item Developed automated scripts for speech analysis, performed data collection \& acoustic analysis
+	\item Trained \& managed research assistants \& coordinated meetings
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Research Assistant: CHILDES PhonBank Project}{September 2012 - March 2014}{Linguistics Department, McGill University}{Montr\'eal, QC}
+	\item Edited and maintained corpus of child phonological data
+	\item Provided detailed feedback for ongoing development of PhonBank software
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Research Assistant: McGill Prosody Lab}{June 2012 - June 2014}{Linguistics Department, McGill University}{Montr\'eal, QC}
+	\item Performed data collection for a variety of speech production and perception experiments
+	\item Assisted in data analysis using MatLab and Praat software
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Research Assistant: Speech Learning Lab}{November 2011 - June 2014}{Linguistics Department, McGill University}{Montr\'eal, QC}
+	\item Assisted in speech perception and production experimental design
+	\item Conducted acoustic and statistical analysis
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+% 	CLINICAL
+%----------------------------------------------------------------------------------------
+
+%\newpage
+\begin{rSection}{Professional Experience: Clinical}
+
+	\begin{rSubsection}{Student Clinician: Speech Amplification Clinic}{September 2018 - present}{H.A. Leeper Speech \& Hearing Clinic}{London, ON}
+	\item Developed policies and procedures for and led assessments of individuals with hypophonia seeking a speech amplification device
+	\item Coordinated meetings with speech-language pathologists, audiologists, neurologists and clinic staff to ensure timely prescription of appropriate devices
+	\end{rSubsection}
+
+	\begin{rSubsection}{Student Clinician: Schoolboard}{May 2018 - June 2018}{Thames Valley District Schoolboard}{London, ON}
+	\item Conducted assessment and intervention for school-aged children
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Student Clinician: Fluency disorders}{August 2017}{Camp ShoutOut}{Holton, MI, USA.}
+	\item Provided individual and group intervention to children with fluency disorders
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Student Clinician: Acquired neurogenic language disorders}{May 2015 - July 2015}{H.A. Leeper Speech \& Hearing Clinic}{London, ON}
+	\item Conducted assessment and intervention for adults with aphasia
+	\item Provided individual \& group therapy
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Student Clinician: Voice disorders}{May 2015 - June 2015}{H.A. Leeper Speech \& Hearing Clinic}{London, ON}
+	\item Delivered LSVT-LOUD to client with Parkinson's disease
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Student Clinician: TykeTalk}{January 2015 - April 2015}{H.A. Leeper Speech \& Hearing Clinic}{London, ON}
+	\item Conducted assessment and intervention for young children with suspected speech and/or language difficulties
+	\item Assisted in providing Hanen Target Word intervention
+	\end{rSubsection}
+\end{rSection}
+%------------------------------------------------
+
+%%------------------------------------------------
+%% NOT FOR ACADEMIC CV
+%%------------------------------------------------
+%
+%\begin{rSubsection}{Tutor}{September 2011 - August 2013}{Private family}{Montr\'eal, QC}
+%\item Provided math, English, and French homework help to a child with dyslexia
+%\end{rSubsection}
+%
+%%------------------------------------------------
+%
+%\begin{rSubsection}{Director of Quality Control}{October 2008 - October 2012}{Cafe Myriade}{Montr\'eal, QC}
+%\item Trained new staff in specialty coffee brewing and customer service
+%\item Maintained high standard of quality in extremely high-paced environment
+%\item Conducted routine coffee tastings and brewing methodology calibration to assess product quality
+%\end{rSubsection}
+%
+%%------------------------------------------------
+%\begin{rSubsection}{Waitress}{October 2006 - August 2007}{Esselon Cafe}{Hadley, MA}
+%\item Provided exceptional customer service in extremely fast-paced \& quality-driven environment
+%\item Waited on tables, took orders, checked and stocked inventory
+%\end{rSubsection}
+%%------------------------------------------------
+%
+%\begin{rSubsection}{Rock climbing course developer and instructor}{October 2005 - July 2007}{Northampton Athletic Club}{Northampton, MA}
+%\item Developed weekly rock climbing program and summer camp for children ages 4 to 13
+%\item Instructed children ages 4 to 13 on rock climbing technique and safety
+%\end{rSubsection}
+%%------------------------------------------------
+%
+%\begin{rSubsection}{Rock wall desk supervisor}{October 2005 - July 2007}{Northampton Athletic Club}{Northampton, MA}
+%\item Supervised rock wall customers, ensured safety and hygiene standards were maintained, conducted regular beginner climbing sessions and safety classes
+%\end{rSubsection}
+
+%\end{rSection}
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Teaching Experience}
+	%\begin{rSubsection}{Teaching Assistant: Speech Science (COMMSCI9625)}{Fall 2017}{Communication Sciences \& Disorders}{Western University}
+	%\item Delivered lecture: \emph{Introduction to phonetics}
+	%\item Conducted three weekly labs on healthy and disordered speech acoustics
+	%\end{rSubsection}
+	
+	\begin{rSubsection}{Tutorial: Figuring out figures in R}{October 2018}{R-Ladies, London, Ontario Chapter}
+	\item Conducted interactive presentation and tutorial on using the programming language and software environment R to explore data and generate customized visualizations using the ggplot package
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Invited guest lecturer: Motor Speech Disorders (SLP714)}{March 2018}{Communication Sciences \& Disorders}{Central Michigan University}
+	\item Delivered lecture: ``Treatment trends in hypokinetic dysarthria''
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Tutorial: Using RMarkdown to generate reports and manuscripts}{March 2018}{R-Ladies, London, Ontario Chapter}
+	\item Conducted interactive presentation and tutorial on using the programming language and software environment R to produce integrated reports and manuscripts
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Invited guest lecturer: Professional Practice Issues (COMMSCI9636)}{November 2017}{Communication Sciences \& Disorders}{Western University}
+	\item Delivered lecture: ``Thinking about pursuing a PhD in communication sciences and disorders?''
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Teaching Assistant: Speech Science (COMMSCI9615)}{Fall 2017}{Communication Sciences \& Disorders}{Western University}
+	\item Delivered lecture: ``Introduction to phonetics''
+	\item Conducted three weekly labs on healthy and disordered speech acoustics for graduate SLP and Audiology students
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Teaching Assistant: Voice Disorders (COMMSCI9631)}{Spring 2017}{Communication Sciences \& Disorders}{Western University}
+	\item Graded quizzes and exams related to healthy and disordered voice production for graduate SLP students
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Teaching Assistant: Speech Science (COMMSCI9615)}{Fall 2016, 2017}{Communication Sciences \& Disorders}{Western University}
+	\item Delivered lecture: ``Introduction to phonetics''
+	\item Conducted three weekly labs on healthy and disordered speech acoustics for graduate SLP and Audiology students
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Tutorial: Introduction to Praat Scripting}{Spring 2014}{Department of Linguistics}{McGill University}
+	\item Conducted tutorials for various linguistics laboratory research assistants on automating aspects of acoustic analysis by writing scripts in Praat
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	VOLUNTEER & RELATED SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Volunteer \& Related Experience}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{Pin Pals Volunteer}{February - March 2016}{Autism Ontario}{London, ON}
+	\item Weekly one-on-one bowling outings with children with autism spectrum disorder
+	
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Operation Smile Volunteer}{September 2015 - June 2016}{Western University}{London, ON}
+	\item Assisted in fundraising for medical charity providing surgical training for doctors treating children born with cleft lip/palate in underfunded international locations
+	
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{IAL Voice Institute Attendee}{June 2015}{International Association of Laryngectomees}{Baltimore, MD}
+	\item Exposure to comprehensive issues related to laryngectomy and postlaryngectomy patient care
+	\item Acquired direct, hands-on experience with all methods of alaryngeal speech %including esophageal speech, tracheoesophageal puncture voice restoration, and artificial larynx speech
+	\item Passed IAL examination which confirmed acquisition of basic and intermediate levels of knowledge in postlaryngectomy rehabilitation
+	
+	\end{rSubsection}
+	
+
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Aphasia Retreat Day Volunteer}{May 2015}{Western University}{London, ON}
+	\item Volunteered as "communication ramp" for adults with aphasia during full day retreat
+	\item Facilitated communication using SCAA strategies during games and activities 
+	
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	
+	\begin{rSubsection}{Speech-Language Pathology Assistant}{January 2013 - July 2014}{Speech Therapy Montr\'eal}{Montr\'eal, QC}
+	\item Assisted with early intervention language screenings
+	\item Performed inventory of therapy materials, created client database
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Software Carpentry Bootcamp Attendee}{January 2013}{McGill University}{Montr\'eal, QC}
+	\item Professional development related to programming skill enhancement with command line tools, GitHub, and Python
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Nor'Easter Marketing Street Team}{August 2008}{Nor'Easter Outdoor Festival}{Burlington, VT}
+	\item Led a Montr\'eal-based team of volunteers responsible for advertising the ``Nor'Easter,'' a large-scale outdoor sports and music festival powered by Eastern Mountain Sports and held in Vermont
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{English Teacher}{September 2007 - July 2008}{ Private family}{Salamanca, Spain}
+	\item Provided daily private English lessons to two Spanish-speaking children
+	\item Created lesson materials including games and conversational practice
+	\end{rSubsection}
+	
+	%------------------------------------------------
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC SERVICE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Academic Service \& Leadership}
+
+	\begin{rSubsection}{Co-founder}{January 2017 - present}{R-Ladies London, Ontario Chapter}{London, ON}
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Chair/Organizer}{2016-2017}{Health \& Rehabilitation Sciences Alumni Speaker Series, Western University}{London, ON}
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Sponsorship Subcommittee Leader}{2016-2017}{Health \& Rehabilitation Sciences Graduate Research Conference, Western University}{London, ON}
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Vice-President Finance}{2016-2017}{Health \& Rehabilitation Sciences Graduate Student Society, Western University}{London, ON}
+	\end{rSubsection}
+	
+	\begin{rSubsection}{President}{2015-2016}{Health \& Rehabilitation Sciences Graduate Student Society, Western University}{London, ON}
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Co-organizer}{2016}{Health \& Rehabilitation Sciences Graduate Research Conference, Western University}{London, ON}
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Abstract Reviewer}{2015, 2016}{Health \& Rehabilitation Sciences Graduate Research Conference, Western University}{London, ON}
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Professional Program Preview Day Volunteer}{2015}{School of Communication Sciences \& Disorders, Western University}{London, ON}
+	\end{rSubsection}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & R, Praat, \LaTeX, MatLab, Python \\
+%Treatment Programs & LSVT, Melodic Intonation Therapy, Copy \& Recall Treatment \\
+\end{tabular}
+
+\end{rSection}
+
+
+%\newpage
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL AFFILIATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+%\small{ % make the rest of the sections smaller text. Omit depending on page alignment
+
+\begin{rSection}{Professional Affiliations}
+\begin{itemize}
+%			\renewcommand\labelitemi{$\cdot$}
+	\item Movement Disorders Society (MDS): Student Member
+	\item Academy of Neurologic Communication Disorders and Sciences (ANCDS): Student Member
+	\item American National Student Speech-Language-Hearing Association (NSSLHA): Student Member
+	\item Ontario Association of Speech-Language Pathologists and Audiologists (OSLA): Student Member
+	\item American Speech-Language-Hearing Association (ASHA) Special Interest Group 19: Member
+\end{itemize}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EXTRACURRICULARS  SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Personal Interests}
+
+\begin{itemize}
+%			\renewcommand\labelitemi{$\cdot$} 
+	\item Rock climbing: competed in three US National Championships and one North American Continental Championship
+	\item Long-distance running: completed two marathons and two half marathons
+	\item Coffee preparation science: former Director of Quality Control at Caf\'e Myriade, current hobbyist
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	OTHER INFO  SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Other information}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Citizenship & United States\\
+Permanent Residency & Canada\\
+Languages & English (native), Spanish (advanced), French (novice) \\
+\end{tabular}
+
+\end{rSection}
+
+%} %end small
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\end{document}
