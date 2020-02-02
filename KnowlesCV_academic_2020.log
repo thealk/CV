@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 JAN 2020 09:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  20 JAN 2020 09:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -677,128 +677,106 @@ l.166 \end{rSubsection}
 ? 
 [2] [3] [4] [5] [6] [7]
 
-./KnowlesCV_academic_2020.tex:608: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2020.tex:612: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.608 	\end{rSubsection}
+l.612 	\end{rSubsection}
                         
 ? 
 
-./KnowlesCV_academic_2020.tex:630: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2020.tex:634: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.630 	\end{rSubsection}
+l.634 	\end{rSubsection}
                         
 ? 
 
-./KnowlesCV_academic_2020.tex:633: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2020.tex:637: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.633 	\end{rSubsection}
+l.637 	\end{rSubsection}
                         
 ? 
 
-./KnowlesCV_academic_2020.tex:636: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2020.tex:640: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.636 	\end{rSubsection}
-                        
-? 
-
-./KnowlesCV_academic_2020.tex:644: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.644 	\end{rSubsection}
-                        
-? 
-
-./KnowlesCV_academic_2020.tex:650: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.650 	\end{rSubsection}
+l.640 	\end{rSubsection}
                         
 ? 
 [8]
 
-./KnowlesCV_academic_2020.tex:655: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2020.tex:649: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.655 	\end{rSubsection}
+l.649 	\end{rSubsection}
                         
 ? 
 
-./KnowlesCV_academic_2020.tex:660: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2020.tex:652: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.660 	\end{rSubsection}
+l.652 	\end{rSubsection}
+                        
+? 
+
+./KnowlesCV_academic_2020.tex:658: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.658 	\end{rSubsection}
+                        
+? 
+
+./KnowlesCV_academic_2020.tex:663: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.663 	\end{rSubsection}
+                        
+? 
+
+./KnowlesCV_academic_2020.tex:668: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.668 	\end{rSubsection}
                         
 ? 
 [9]
-
-./KnowlesCV_academic_2020.tex:742: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.742 	\end{rSubsection}
-                        
-? 
-
-./KnowlesCV_academic_2020.tex:745: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.745 	\end{rSubsection}
-                        
-? 
-
-./KnowlesCV_academic_2020.tex:748: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.748 	\end{rSubsection}
-                        
-? 
 
 ./KnowlesCV_academic_2020.tex:751: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
@@ -854,32 +832,65 @@ Type  H <return>  for immediate help.
 l.763 	\end{rSubsection}
                         
 ? 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 799.
+
+./KnowlesCV_academic_2020.tex:766: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.766 	\end{rSubsection}
+                        
+? 
+
+./KnowlesCV_academic_2020.tex:769: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.769 	\end{rSubsection}
+                        
+? 
+
+./KnowlesCV_academic_2020.tex:772: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.772 	\end{rSubsection}
+                        
+? 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 808.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 799.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 851.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 808.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 860.
  [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 851.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 860.
 
 (./KnowlesCV_academic_2020.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 851.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 851.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 860.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 860.
 Package rerunfilecheck Info: File `KnowlesCV_academic_2020.out' has not changed
 .
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'KnowlesCV_academic_2020.run.xml'.
 \openout1 = `KnowlesCV_academic_2020.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 851.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 860.
  ) 
 Here is how much of TeX's memory you used:
  12615 strings out of 492649
  215163 string characters out of 6129622
- 726703 words of memory out of 5000000
+ 727703 words of memory out of 5000000
  16389 multiletter control sequences out of 15000+600000
  7998 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -892,7 +903,7 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on KnowlesCV_academic_2020.pdf (10 pages, 140478 bytes).
+Output written on KnowlesCV_academic_2020.pdf (10 pages, 140615 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream
