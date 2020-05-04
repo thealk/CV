@@ -30,9 +30,9 @@
 %Volunteer and Related Experience
 %etc.
 
-%----------------------------------------------------------------------------------------
+%------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+%------------------------------
 
 \documentclass{resume} % Use the custom resume.cls style
 
@@ -53,6 +53,20 @@
     \clearfield{month}
     \clearfield{url}
 }
+
+% \pbox for two-column contact info
+\usepackage{pbox}
+
+% Hyper links and PDF info
+\usepackage{hyperref}
+\hypersetup{%
+  colorlinks  = true,
+  allcolors   = black
+}
+
+
+\usepackage{fontawesome}
+\usepackage{academicons}
 
 %----------------------------------------------------------------------------------------
 
@@ -80,13 +94,134 @@ Buffalo, NY
 \begin{rSection}{Education}
 
 {\bf Western University, London, ON} \hfill {2014 - 2019} \\ 
-MClSc/PhD  \\
-Health \& Rehabilitation Sciences (Speech \& Language Sciences) \\ 
-Communication Sciences \& Disorders (Speech-Language Pathology) \bigskip \\
+PhD, Speech \& Language Sciences  \\
+Health \& Rehabilitation Sciences  \bigskip \\
+
+{\bf Western University, London, ON} \hfill {2014 - 2019} \\ 
+MClSc, Speech-Language Pathology  \\
+Communication Sciences \& Disorders \bigskip \\
+
 %Speech-Language Science/Speech-Language Pathology 
 {\bf McGill University, Montr\'eal, QC} \hfill {2008 - 2012} \\
 B.A. Honours, Linguistics \\
 First Class Honours, Distinction
+
+\end{rSection}
+
+%------------------------------
+%	FUNDING
+%------------------------------
+\begin{rSection}{Funding}
+
+
+\begin{center}
+	{\bf \emph{Funded}}
+\end{center}
+
+%\begin{rSubsection}{SPEAK OUT!\textsuperscript{\textregistered} \& LOUD Crowd\textsuperscript{\textregistered} Grant}{2020-2021}{}{}
+%	\item Clinical practice grant. I am the lead speech-language pathologist.
+%\end{rSubsection}
+
+\begin{rSubsection}{Ontario Graduate Scholarship}{2018-2019}{}{}
+	\item Value: \$15,000
+\end{rSubsection}
+
+\begin{rSubsection}{Ontario Graduate Scholarship}{2017-2018}{}{}
+	\item Value: \$15,000
+\end{rSubsection}
+
+\begin{rSubsection}{Western Graduate Research Scholarship}{2014 - 2019}{Value: approx. \$19,000 annually}{} %Current value: \$19,000 annually}{}
+\end{rSubsection}
+
+
+\begin{center}
+	{\bf \emph{Unfunded}}
+\end{center}
+
+
+%\begin{rSubsection}{Graduate Studentship Award}{2017}{Parkinson Society Canada}{}
+%\end{rSubsection}
+
+\begin{rSubsection}{Vanier Scholarship Nominee}{2016}{Nominated by Western University Faculty of Health Sciences}{}
+\end{rSubsection}
+
+%\begin{rSubsection}{Doctoral Research Award}{2016}{Canadian Institutes of Health Research}{}
+\end{rSection}
+%------------------------------
+%	HONOURS & AWARDS SECTION
+%------------------------------
+
+\begin{rSection}{Honours \& Awards}
+
+\begin{center}
+	{\bf \emph{Scholarly Awards}}
+\end{center}
+
+\begin{rSubsection}{Graduate Student Teaching Award Nominee (not awarded)}{2018}{Western University}{}
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Student Research Program Award}{2017-2018}{Parkinson Society Southwestern Ontario}{}
+	\item Value: \$20,000
+\end{rSubsection}
+
+\begin{rSubsection}{Western University ``3 Minute Thesis'' First Place Winner}{2016}{Western University}{}
+	\item  Value: \$1,000
+\end{rSubsection}
+
+\begin{rSubsection}{Harmonize for Speech Graduate Student Award}{2016}{Harmonize for Speech Ontario}{}
+	\item Value: \$750
+\end{rSubsection}
+
+\begin{rSubsection}{Student Achievement Award}{2015}{Ontario Association of Speech-Language Pathologists \&
+Audiologists}{}
+	\item Value: OSLA Membership
+\end{rSubsection}
+
+\begin{rSubsection}{Acoustical Society of America Student Poster Honorable Mention}{2015}{Meeting of the 170th Acoustical Society of America}{}
+\end{rSubsection}
+
+\begin{rSubsection}{Best PhD Student Poster Award}{2015}{Health \& Rehabilitation Sciences Graduate Research Conference, Western University}{}
+\end{rSubsection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+% TRAVEL
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	{\bf \emph{Travel Awards}}
+\end{center}
+
+\begin{rSubsection}{Graduate Student Conference Travel Subsidy (Summer)}{2018}{Western University Society of Graduate Students}{}
+	\item Value: \$500.00
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Student Conference Travel Award}{2018}{Western University Faculty of Health Sciences}{}
+	\item Value: \$250.00
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Student Conference Travel Subsidy (Spring)}{2018}{Western University Society of Graduate Students}{}
+	\item Value: \$300.00
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Student Conference Travel Subsidy (Spring)}{2016}{Western University Society of Graduate Students}{}
+	\item Value: \$500.00
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Student Conference Travel Award}{2016}{Western University Health \& Rehabilitation Sciences}{}
+	\item Value: \$400.00
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Student Conference Travel Award}{2016}{Western University Faculty of Health Sciences}{}
+	\item Value: \$300.00
+\end{rSubsection}
+
+
+
+%\begin{rSubsection}{Graduation with First Class Honours \& Distinction}{2012}{McGill University}{ }
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Dean's Honour List}{2010}{McGill University}{}
+%\end{rSubsection}
+
 
 \end{rSection}
 
@@ -97,8 +232,12 @@ First Class Honours, Distinction
 % Update to separate university publications & proceedings?
 % Add DOIs
 
+\newpage
+
 \begin{rSection}{Publications}
 % Journal articles
+
+Adams, S., Kumar, N., Rizek, P., Hong, A., Zhang, J., Abeyesekera, A., Mancinelli, C., {\bf Knowles, T.}, \& Jog, M. (Accepted). Efficacy and acceptance of a Lombard-response device for hypophonia in Parkinson’s disease. \emph{The Canadian Journal of Neurological Sciences}.
 
 Sonderegger, M., Stuart-Smith, J., Macdonald, R., {\bf Knowles, T.}, \& Rathcke, T. (2020). Structured heterogeneity in Scottish stops. \emph{Language}.
 
@@ -125,11 +264,13 @@ Cheng, J. \& {\bf Knowles, T.} (2012). Mandarin VP-Shell: Not as hard as you thi
 % Manuscripts
 \begin{rSection}{Manuscripts}
 
-Adams, S. Kumar, N., Rizek, P., Hong, A., Zhang, J., Abeyesekera, A., Mancinelli, C., {\bf Knowles, T.} \& Jog, M.  (In review). Efficacy and acceptance of a Lombard-response device for hypophonia in Parkinson's disease.
+%Adams, S. Kumar, N., Rizek, P., Hong, A., Zhang, J., Abeyesekera, A., Mancinelli, C., {\bf Knowles, T.} \& Jog, M.  (In review). Efficacy and acceptance of a Lombard-response device for hypophonia in Parkinson's disease.
 
-{\bf Knowles, T.}, Adams, S., Page, A., Cushnie-Sparrow, D., \& Jog, M. (Submitted). A comparison of speech amplification and personal communication devices for hypophonia. Submitted to JSLHR.
+{\bf Knowles, T.}, Adams, S., Page, A., Cushnie-Sparrow, D., \& Jog, M. (In review). A comparison of speech amplification and personal communication devices for hypophonia. Submitted to JSLHR.
 
-Avenia, K., Ahmed, J., Borovsky, A., McRae, K., Jenkins, M., Sprengel, K., Fraser, J.A., Orange, J.B., Knowles, T., Roberts, A. (In prep). Predictive language comprehension in Parkinson’s disease.
+Avenia, K., Ahmed, J., Borovsky, A., McRae, K., Jenkins, M., Sprengel, K., Fraser, J.A., Orange, J.B., {\bf Knowles, T.}, Roberts, A. (In prep). Predictive language comprehension in Parkinson’s disease.
+
+{\bf Knowles, T.}, Adams, S.G., \& Jog, M. (In prep). Voice acoustics along a modified speech rate continuum in Parkinson's disease.
 
 % Special issue of JPhon submitted by Meghan
 
@@ -370,85 +511,85 @@ Avenia, K., Ahmed, J., Borovsky, A., McRae, K., Jenkins, M., Sprengel, K., Frase
 %\newpage
 
 
-
-%----------------------------------------------------------------------------------------
-%	HONOURS & AWARDS SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Honours \& Awards}
-
-\begin{rSubsection}{Graduate Student Conference Travel Subsidy (Summer)}{2018}{Western University Society of Graduate Students}{}
-\item Value: \$500.00
-\end{rSubsection}
-
-\begin{rSubsection}{Graduate Student Conference Travel Award}{2018}{Western University Faculty of Health Sciences}{}
-\item Value: \$250.00
-\end{rSubsection}
-
-\begin{rSubsection}{Graduate Student Conference Travel Subsidy (Spring)}{2018}{Western University Society of Graduate Students}{}
-\item Value: \$300.00
-\end{rSubsection}
-
-\begin{rSubsection}{Graduate Student Teaching Award Nominee (not awarded)}{2018}{Western University}{}
-\end{rSubsection}
-
-\begin{rSubsection}{Ontario Graduate Scholarship}{2018-2019}{}{}
-\item Value: \$15,000
-\end{rSubsection}
-
-\begin{rSubsection}{Ontario Graduate Scholarship}{2017-2018}{}{}
-\item Value: \$15,000
-\end{rSubsection}
-
-\begin{rSubsection}{Graduate Student Research Program Award}{2017-2018}{Parkinson Society Southwestern Ontario}{}
-\item Value: \$20,000
-\end{rSubsection}
-
-\begin{rSubsection}{Vanier Scholarship Nominee (not awarded)}{2016}{Nominated by Western University Faculty of Health Sciences}{}
-\end{rSubsection}
-
-\begin{rSubsection}{Western University ``3 Minute Thesis'' First Place Winner}{2016}{Western University}{}
-\item  Value: \$1,000
-\end{rSubsection}
-
-\begin{rSubsection}{Harmonize for Speech Graduate Student Award}{2016}{Harmonize for Speech Ontario}{}
-\item Value: \$750
-\end{rSubsection}
-
-\begin{rSubsection}{Graduate Student Conference Travel Subsidy (Spring)}{2016}{Western University Society of Graduate Students}{}
-\item Value: \$500.00
-\end{rSubsection}
-
-\begin{rSubsection}{Graduate Student Conference Travel Award}{2016}{Western University Health \& Rehabilitation Sciences}{}
-\item Value: \$400.00
-\end{rSubsection}
-
-\begin{rSubsection}{Graduate Student Conference Travel Award}{2016}{Western University Faculty of Health Sciences}{}
-\item Value: \$300.00
-\end{rSubsection}
-
-\begin{rSubsection}{Student Achievement Award}{2015}{Ontario Association of Speech-Language Pathologists \&
-Audiologists}{}
-\item Value: OSLA Membership
-\end{rSubsection}
-
-\begin{rSubsection}{Acoustical Society of America Student Poster Honorable Mention}{2015}{Meeting of the 170th Acoustical Society of America, Jacksonville}{}
-\end{rSubsection}
-
-\begin{rSubsection}{Best PhD Student Poster Award}{2015}{Health \& Rehabilitation Sciences Graduate Research Conference, Western University}{}
-\end{rSubsection}
-
-%\begin{rSubsection}{Western Graduate Research Scholarship}{2014, 2015, 2016}{Value: \$19,000 annually}{} %Current value: \$19,000 annually}{}
+%
+%%----------------------------------------------------------------------------------------
+%%	HONOURS & AWARDS SECTION
+%%----------------------------------------------------------------------------------------
+%
+%\begin{rSection}{Honours \& Awards}
+%
+%\begin{rSubsection}{Graduate Student Conference Travel Subsidy (Summer)}{2018}{Western University Society of Graduate Students}{}
+%\item Value: \$500.00
 %\end{rSubsection}
-
-\begin{rSubsection}{Graduation with First Class Honours \& Distinction}{2012}{McGill University}{ }
-\end{rSubsection}
-
-\begin{rSubsection}{Dean's Honour List}{2010}{McGill University}{}
-\end{rSubsection}
-
-
-\end{rSection}
+%
+%\begin{rSubsection}{Graduate Student Conference Travel Award}{2018}{Western University Faculty of Health Sciences}{}
+%\item Value: \$250.00
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Graduate Student Conference Travel Subsidy (Spring)}{2018}{Western University Society of Graduate Students}{}
+%\item Value: \$300.00
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Graduate Student Teaching Award Nominee (not awarded)}{2018}{Western University}{}
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Ontario Graduate Scholarship}{2018-2019}{}{}
+%\item Value: \$15,000
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Ontario Graduate Scholarship}{2017-2018}{}{}
+%\item Value: \$15,000
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Graduate Student Research Program Award}{2017-2018}{Parkinson Society Southwestern Ontario}{}
+%\item Value: \$20,000
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Vanier Scholarship Nominee (not awarded)}{2016}{Nominated by Western University Faculty of Health Sciences}{}
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Western University ``3 Minute Thesis'' First Place Winner}{2016}{Western University}{}
+%\item  Value: \$1,000
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Harmonize for Speech Graduate Student Award}{2016}{Harmonize for Speech Ontario}{}
+%\item Value: \$750
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Graduate Student Conference Travel Subsidy (Spring)}{2016}{Western University Society of Graduate Students}{}
+%\item Value: \$500.00
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Graduate Student Conference Travel Award}{2016}{Western University Health \& Rehabilitation Sciences}{}
+%\item Value: \$400.00
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Graduate Student Conference Travel Award}{2016}{Western University Faculty of Health Sciences}{}
+%\item Value: \$300.00
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Student Achievement Award}{2015}{Ontario Association of Speech-Language Pathologists \&
+%Audiologists}{}
+%\item Value: OSLA Membership
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Acoustical Society of America Student Poster Honorable Mention}{2015}{Meeting of the 170th Acoustical Society of America, Jacksonville}{}
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Best PhD Student Poster Award}{2015}{Health \& Rehabilitation Sciences Graduate Research Conference, Western University}{}
+%\end{rSubsection}
+%
+%%\begin{rSubsection}{Western Graduate Research Scholarship}{2014, 2015, 2016}{Value: \$19,000 annually}{} %Current value: \$19,000 annually}{}
+%%\end{rSubsection}
+%
+%\begin{rSubsection}{Graduation with First Class Honours \& Distinction}{2012}{McGill University}{ }
+%\end{rSubsection}
+%
+%\begin{rSubsection}{Dean's Honour List}{2010}{McGill University}{}
+%\end{rSubsection}
+%
+%
+%\end{rSection}
 
 %\newpage
 
