@@ -1,0 +1,180 @@
+# install.packages("devtools")
+devtools::install_github("nstrayer/datadrivencv")
+?datadrivencv::use_csv_datadriven_cv
+?datadrivencv::use_datadriven_cv
+# run ?datadrivencv::use_datadriven_cv to see more details
+datadrivencv::use_datadriven_cv(
+full_name = "Thea Knowles",
+data_location = "https://docs.google.com/spreadsheets/d/1dTAz6tWN5AK0gazCXslizo4OC0gHPMV2BEFc8i7jAT8/edit#gid=917338460"
+#pdf_location = "https://github.com/thealk/CV/raw/master/strayer_cv.pdf",
+#html_location = "nickstrayer.me/cv/",
+#source_location = "https://github.com/nstrayer/cv"
+)
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html")
+?googlesheets4::read_sheet
+googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1dTAz6tWN5AK0gazCXslizo4OC0gHPMV2BEFc8i7jAT8/edit#gid=917338460")
+library(googlesheets4)
+googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1dTAz6tWN5AK0gazCXslizo4OC0gHPMV2BEFc8i7jAT8/edit#gid=917338460")
+googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1dTAz6tWN5AK0gazCXslizo4OC0gHPMV2BEFc8i7jAT8/edit#gid=917338460")
+# run ?datadrivencv::use_datadriven_cv to see more details
+datadrivencv::use_datadriven_cv(
+full_name = "Thea Knowles",
+data_location = "https://docs.google.com/spreadsheets/d/1dTAz6tWN5AK0gazCXslizo4OC0gHPMV2BEFc8i7jAT8/edit#gid=917338460"
+#pdf_location = "https://github.com/thealk/CV/raw/master/strayer_cv.pdf",
+#html_location = "nickstrayer.me/cv/",
+#source_location = "https://github.com/nstrayer/cv"
+)
+# Knit the PDF version to temporary html location
+tmp_html_cv_loc <- fs::file_temp(ext = ".html")
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = TRUE),
+output_file = tmp_html_cv_loc)
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html")
+cv_data <- readxl::read_excel("knowles_cv_data.xlsx")
+cv_data
+?readxl::read_excel
+?create_CV_object
+library(datadrivencv)
+?create_CV_object
+?datadrivencv::create_CV_object
+# run ?datadrivencv::use_datadriven_cv to see more details
+datadrivencv::use_datadriven_cv(
+full_name = "Thea Knowles",
+data_location = "knowles_cv_data.xlsx"
+#pdf_location = "https://github.com/thealk/CV/raw/master/strayer_cv.pdf",
+#html_location = "nickstrayer.me/cv/",
+#source_location = "https://github.com/nstrayer/cv"
+)
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html")
+# run ?datadrivencv::use_datadriven_cv to see more details
+datadrivencv::use_datadriven_cv(
+full_name = "Thea Knowles",
+data_location = "cv_data"
+#pdf_location = "https://github.com/thealk/CV/raw/master/strayer_cv.pdf",
+#html_location = "nickstrayer.me/cv/",
+#source_location = "https://github.com/nstrayer/cv"
+)
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html")
+# run ?datadrivencv::use_datadriven_cv to see more details
+datadrivencv::use_datadriven_cv(
+full_name = "Thea Knowles",
+data_location = "cv_data"
+#pdf_location = "https://github.com/thealk/CV/raw/master/strayer_cv.pdf",
+#html_location = "nickstrayer.me/cv/",
+#source_location = "https://github.com/nstrayer/cv"
+)
+# run ?datadrivencv::use_datadriven_cv to see more details
+datadrivencv::use_datadriven_cv(
+full_name = "Thea Knowles",
+data_location = "cv_data"
+#pdf_location = "https://github.com/thealk/CV/raw/master/strayer_cv.pdf",
+#html_location = "nickstrayer.me/cv/",
+#source_location = "https://github.com/nstrayer/cv"
+)
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html")
+# run ?datadrivencv::use_datadriven_cv to see more details
+datadrivencv::use_datadriven_cv(
+full_name = "Thea Knowles",
+data_location = "cv_data/"
+#pdf_location = "https://github.com/thealk/CV/raw/master/strayer_cv.pdf",
+#html_location = "nickstrayer.me/cv/",
+#source_location = "https://github.com/nstrayer/cv"
+)
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html")
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html")
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html")
+?rmarkdown::render
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html")
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html",
+clean = TRUE)
+library(magrittr) # For the pipe
+source("cv_printing_functions.r")
+# Read in all data and initialize a CV printer object
+CV <- create_CV_object(
+data_location = "cv_data/",
+pdf_mode = params$pdf_mode
+)
+params
+params = list(pdf_mode = FALSE)
+# Read in all data and initialize a CV printer object
+CV <- create_CV_object(
+data_location = "cv_data/",
+pdf_mode = params$pdf_mode
+)
+CV
+# When in pdf export mode the little dots are unaligned, so fix that with some conditional CSS.
+if(params$pdf_mode) {
+cat("
+<style>
+:root{
+--decorator-outer-offset-left: -6.5px;
+}
+</style>")
+CV$entries_data
+CV
+CV$entries_data
+CV$entries_data %>% View
+CV %<>% print_section('research_positions')
+CV %<>% print_section('education')
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html",
+clean = TRUE,
+)
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html",
+clean = TRUE,
+)
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html",
+clean = FALSE,
+)
+#cv_data <- readxl::read_excel("knowles_cv_data.xlsx")
+# run ?datadrivencv::use_datadriven_cv to see more details
+datadrivencv::use_datadriven_cv(
+full_name = "Thea Knowles",
+data_location = "cv_data/"
+#pdf_location = "https://github.com/thealk/CV/raw/master/strayer_cv.pdf",
+#html_location = "nickstrayer.me/cv/",
+#source_location = "https://github.com/nstrayer/cv"
+)
+# Knit the HTML version
+rmarkdown::render("cv.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "cv.html",
+clean = FALSE)
