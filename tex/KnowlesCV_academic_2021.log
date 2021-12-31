@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  19 JUL 2021 08:46
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  31 DEC 2021 15:16
  restricted system commands enabled.
  file:line:error style messages enabled.
 **KnowlesCV_academic_2021.tex
@@ -36,7 +36,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.114 seconds
+luaotfload | main : initialization completed in 0.192 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (./resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
@@ -1312,99 +1312,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--94
 (load luc: /Users/theaknowles/Library/texlive/2018/texmf-var/luatex-cache/generi
 c/fonts/otl/lmroman10-bolditalic.luc) [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (1.67012pt too wide) in paragraph at lines 252--253
-\TU/lmr/m/n/10.95 Parkin-son’s dis-ease. \TU/lmr/m/it/10.95 The Cana-dian Jou
-r-nal of Neu-ro-log-i-cal Sci-ences\TU/lmr/m/n/10.95 , 1-8. DOI: 10.1017/cjn.20
-20.90 
- []
-
-[2]
-Overfull \hbox (1.88725pt too wide) in paragraph at lines 350--351
-[]\TU/lmr/bx/n/10.95 Knowles, T. \TU/lmr/m/n/10.95 Louder but not clearer: Ex-p
-lor-ing un-der-pin-nings of speech in-tel-li-gi-bil-ity in dysarthria
- []
-
-
-Overfull \hbox (1.88725pt too wide) in paragraph at lines 352--353
-[]\TU/lmr/bx/n/10.95 Knowles, T. \TU/lmr/m/n/10.95 Louder but not clearer: Ex-p
-lor-ing un-der-pin-nings of speech in-tel-li-gi-bil-ity in dysarthria
- []
-
-[3] [4] [5] [6]
-Overfull \hbox (5.2123pt too wide) in paragraph at lines 555--556
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+ [4] [5] [6]
+Overfull \hbox (5.2123pt too wide) in paragraph at lines 564--565
 [][]$\TU/lmr/m/n/10.95 https://parkinsonsociety.ca/wp-content/uploads/2018/07/P
 arkinson-68-complete-for-web-Compressed-
  []
 
 
-./KnowlesCV_academic_2021.tex:656: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2021.tex:665: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.656 	\end{rSubsection}
+l.665 	\end{rSubsection}
                       
 ? 
 [7]
 
-./KnowlesCV_academic_2021.tex:817: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2021.tex:826: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.817 	\end{rSubsection}
+l.826 	\end{rSubsection}
                       
 ? 
 
-./KnowlesCV_academic_2021.tex:820: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2021.tex:829: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.820 	\end{rSubsection}
+l.829 	\end{rSubsection}
                       
 ? 
-
-./KnowlesCV_academic_2021.tex:842: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.842 	\end{rSubsection}
-                      
-? 
-
-./KnowlesCV_academic_2021.tex:845: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.845 	\end{rSubsection}
-                      
-? 
-
-./KnowlesCV_academic_2021.tex:848: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.848 	\end{rSubsection}
-                      
-? 
-[8]
 
 ./KnowlesCV_academic_2021.tex:851: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
@@ -1414,6 +1362,29 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.851 	\end{rSubsection}
+                      
+? 
+[8]
+
+./KnowlesCV_academic_2021.tex:854: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.854 	\end{rSubsection}
+                      
+? 
+
+./KnowlesCV_academic_2021.tex:857: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.857 	\end{rSubsection}
                       
 ? 
 
@@ -1428,25 +1399,14 @@ l.860 	\end{rSubsection}
                       
 ? 
 
-./KnowlesCV_academic_2021.tex:873: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2021.tex:869: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.873 	\end{rSubsection}
-                      
-? 
-
-./KnowlesCV_academic_2021.tex:876: LaTeX Error: Something's wrong--perhaps a mi
-ssing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.876 	\end{rSubsection}
+l.869 	\end{rSubsection}
                       
 ? 
 
@@ -1461,62 +1421,73 @@ l.882 	\end{rSubsection}
                       
 ? 
 
-./KnowlesCV_academic_2021.tex:887: LaTeX Error: Something's wrong--perhaps a mi
+./KnowlesCV_academic_2021.tex:885: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.887 	\end{rSubsection}
+l.885 	\end{rSubsection}
                       
 ? 
 
-./KnowlesCV_academic_2021.tex:930: LaTeX Error: \begin{list} on input line 928 
+./KnowlesCV_academic_2021.tex:891: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.891 	\end{rSubsection}
+                      
+? 
+
+./KnowlesCV_academic_2021.tex:896: LaTeX Error: Something's wrong--perhaps a mi
+ssing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.896 	\end{rSubsection}
+                      
+? 
+
+./KnowlesCV_academic_2021.tex:939: LaTeX Error: \begin{list} on input line 937 
 ended by \end{itemize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.930 \end{itemize}
+l.939 \end{itemize}
                  
 ? 
 [9]
 
-./KnowlesCV_academic_2021.tex:1051: LaTeX Error: \begin{rSubsection} on input l
-ine 928 ended by \end{list}.
+./KnowlesCV_academic_2021.tex:1062: LaTeX Error: \begin{rSubsection} on input l
+ine 937 ended by \end{list}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1051 \end{rSection}
+l.1062 \end{rSection}
                    
 ? 
 
-./KnowlesCV_academic_2021.tex:1051: LaTeX Error: \begin{list} on input line 918
+./KnowlesCV_academic_2021.tex:1062: LaTeX Error: \begin{list} on input line 927
  ended by \end{rSection}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1051 \end{rSection}
+l.1062 \end{rSection}
                    
 ? 
-[10]
-
-./KnowlesCV_academic_2021.tex:1162: LaTeX Error: Something's wrong--perhaps a m
-issing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1162 \end{rSubsection}
-                      
-? 
+[10] [11]
 
 ./KnowlesCV_academic_2021.tex:1182: LaTeX Error: Something's wrong--perhaps a m
 issing \item.
@@ -1528,55 +1499,66 @@ Type  H <return>  for immediate help.
 l.1182 \end{rSubsection}
                       
 ? 
-[11]
 
-./KnowlesCV_academic_2021.tex:1185: LaTeX Error: Something's wrong--perhaps a m
+./KnowlesCV_academic_2021.tex:1202: LaTeX Error: Something's wrong--perhaps a m
 issing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1185 \end{rSubsection}
+l.1202 \end{rSubsection}
                       
 ? 
 
-./KnowlesCV_academic_2021.tex:1330: LaTeX Error: \begin{rSection} on input line
- 918 ended by \end{document}.
+./KnowlesCV_academic_2021.tex:1205: LaTeX Error: Something's wrong--perhaps a m
+issing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1330 \end{document}
+l.1205 \end{rSubsection}
+                      
+? 
+[12]
+
+./KnowlesCV_academic_2021.tex:1351: LaTeX Error: \begin{rSection} on input line
+ 927 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1351 \end{document}
                    
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1330.
-[12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1330.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1351.
+[13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1351.
  (./KnowlesCV_academic_2021.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1330.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1330.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1351.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1351.
 Package rerunfilecheck Info: File `KnowlesCV_academic_2021.out' has not changed.
 
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'KnowlesCV_academic_2021.run.xml'.
 
 \openout1 = KnowlesCV_academic_2021.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1330.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1351.
 )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 918 (\begingroup)
+### semi simple group (level 1) entered at line 927 (\begingroup)
 ### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 25534 strings out of 494413
+ 25535 strings out of 494413
  125200,1144653 words of node,token memory allocated
  478 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 5 attribute, 65 glue_spec, 5 attribute_list
 , 1 write, 1 pdf_action nodes
-   avail lists: 1:3,2:499,3:128,4:52,5:372,6:38,7:4014,8:111,9:117,10:7,11:358,1
+   avail lists: 1:4,2:498,3:129,4:56,5:364,6:39,7:4098,8:111,9:113,10:7,11:365,1
 2:1
  29124 multiletter control sequences out of 65536+600000
  43 fonts using 7204951 bytes
@@ -1593,10 +1575,10 @@ m/lmroman12-bold.otf></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb>
-Output written on KnowlesCV_academic_2021.pdf (12 pages, 103631 bytes).
+Output written on KnowlesCV_academic_2021.pdf (13 pages, 104899 bytes).
 
-PDF statistics: 138 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 131072)
+PDF statistics: 142 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
